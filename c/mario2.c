@@ -3,7 +3,7 @@
 int main (void)
 {
     int height;
-    
+
     do
     {
         printf("Height: ");
@@ -15,7 +15,7 @@ int main (void)
 for (int i = 0; i < height; i++)  // esse for controla as linhas 
     {
         
-        for (int j = 0; j < height - i - 1; j++) // esse for controla os espaços a esquerda do primeiro triangulo
+        for (int j = 0; j < height - i - 1; j++) // esse for controla os espaços a esquerda do primeiro triangulo 
         {
             printf(" "); 
         }
